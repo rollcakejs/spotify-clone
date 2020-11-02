@@ -1,0 +1,26 @@
+.home {
+  padding: 20px;
+}
+
+.home__loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.home__title {
+  color: #FFF;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -.04em;
+  text-transform: none;
+  margin-left: 10px;
+}
+
+.home__list {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}

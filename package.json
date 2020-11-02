@@ -1,0 +1,11 @@
+{
+  "name": "spotify-clone",
+  "private": true,
+  "workspaces": [
+    "./*",
+    "./micro-apps/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}

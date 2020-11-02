@@ -1,0 +1,47 @@
+.item-card {
+    background-color: #282828;
+    padding: 20px 20px 16px;;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    isolation: isolate;
+    width: 180px;
+    height: 280px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.item-card__img {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+}
+
+.item-card__info {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 62px;
+}
+
+.info__name {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: normal;
+    text-transform: none;
+    color: #FFF;
+}
+
+.info__description {
+    margin-top: 10px;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: normal;
+    text-transform: none;
+    color: #b3b3b3;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

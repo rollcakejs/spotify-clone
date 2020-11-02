@@ -1,0 +1,36 @@
+<div class="nav-bar">
+    <img class="nav-bar__logo" src="/assets/img/logo_white.png" alt="logo">
+
+    <div class="nav-bar__item nav-bar__item--active" (click)="onClickHome()">
+        <i class="material-icons">home</i>
+        <span class="item__text">Home</span>
+    </div>
+    <div class="nav-bar__item">
+        <i class="material-icons">search</i>
+        <span class="item__text">Search</span>
+    </div>
+    <div class="nav-bar__item">
+        <i class="material-icons">view_headline</i>
+        <span class="item__text">Your library</span>
+    </div>
+
+    <span class="nav-bar__playlist">Playlists</span>
+
+    <div class="nav-bar__item">
+        <i class="material-icons">add_box</i>
+        <span class="item__text">Create playlist</span>
+    </div>
+    <div class="nav-bar__item">
+        <i class="material-icons">book</i>
+        <span class="item__text">Liked songs</span>
+    </div>
+
+    <span class="nav-bar__separator"></span>
+
+    <div class="nav-bar__playlists-list">
+        <span class="item__text" *ngFor="let item of items" (click)="onClickPlaylistItem(item)">
+            {{ item.name }}
+        </span>
+    </div>
+
+</div>

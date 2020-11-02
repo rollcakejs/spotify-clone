@@ -1,0 +1,5 @@
+.microfrontend, .microfrontend__playlist-board > iframe {
+    height: 90vh !important;
+    left: 200px !important;
+    width: calc(100% - 200px) !important;
+}

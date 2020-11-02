@@ -1,0 +1,18 @@
+.loading-overlay {
+    background-color: #191919;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10000;
+}
+
+.loading-overlay__logo {
+    width: 60px;
+}
